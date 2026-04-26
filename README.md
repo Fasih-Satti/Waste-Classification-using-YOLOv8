@@ -46,18 +46,15 @@ The model can classify the following types of waste:
 ## 📁 Project Structure
 Waste-Classification-using-YOLOv8/
 │
-├── results/ # Output images
+├── results/                          # Output images
 ├── streamlit-detection-tracking-app/
-│ ├── app.py # Main Streamlit app
-│ ├── helper.py # Helper functions
-│ ├── settings.py # Configurations
-│ ├── weights/ # YOLOv8 trained models
+│   ├── app.py                        # Main Streamlit app
+│   ├── helper.py                     # Helper functions
+│   ├── settings.py                   # Configurations
+│   └── weights/                      # YOLOv8 trained models
 │
-├── waste_YOLOv8.ipynb # Training notebook
-├── README.md
-
-
----
+├── waste_YOLOv8.ipynb                # Training notebook
+└── README.md
 
 ## ▶️ Installation & Setup
 
